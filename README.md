@@ -5,7 +5,7 @@ Multiple Pure HTML &amp; CSS Pages Dashboard
 #### You Could See My Application Here:  
 - Live Site URL: [Final-Dashboard](https://mostafafinal.github.io/Final-Dashboard/)
 
-#### The Template Is Built With:
+#### The Dashboard Is Built With:
 - HTML5
 - CSS3 Custom Properties
 - CSS Grid
