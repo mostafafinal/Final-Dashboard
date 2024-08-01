@@ -556,6 +556,13 @@ h1::after {
 .content .settings-page {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
+@media (max-width: 767px) {
+    .content .settings-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 .content label input[type=checkbox] {
     -webkit-appearance: none;
     appearance: none;
@@ -926,6 +933,13 @@ h1::after {
 .content .projects-page {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
+@media (max-width: 767px) {
+    .content .projects-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 .content .projects-page .projects .date {
     position: absolute;
     right: 10px;
@@ -999,6 +1013,13 @@ h1::after {
 .content .courses-page {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+@media (max-width: 767px) {
+    .content .courses-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 .content .courses-page .course {
     overflow: hidden;
 }
@@ -1030,6 +1051,13 @@ h1::after {
 /* Start Friends-Page */
 .content .friends-page {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+@media (max-width: 767px) {
+    .content .friends-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 .content .friends-page .friend {
     overflow: hidden;
